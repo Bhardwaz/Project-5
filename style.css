@@ -1,0 +1,112 @@
+*,::after,
+::before{
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.navbar{
+    background-color: black;
+    height: 10rem;
+
+}
+.navbar img{
+     position: relative;
+     top: 2rem;
+     left: 10rem;
+}
+.navbar .line{
+    border-right: solid #fff;
+    height: 8rem;
+    position: absolute;
+    top: 1%;
+    left: 24%;
+
+}
+.navbar .grow-list{
+     color: #fff;
+     display: inline-block;
+     position: relative;
+     top: -30%;
+     left: 30%;
+     font-family: "Montserrat";
+
+}
+.navbar .grow-list .list{
+    font-size: 1.8rem;
+}
+.navbar .grow-list .list .list-item{
+    display: inline;
+    padding: 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .grow-list .list .list-item:hover{
+     background-color: #8D3DAF;
+     border-radius: 1rem;
+}
+.navbar .button-small{
+    color: #fff;
+    background-color: #8D3DAF;
+    position: absolute;
+    float:right;
+    right: 6% ;
+    top: 4%;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .button-small:hover{
+    background-color: #fff;
+    color: #000;
+}
+.hero{
+    background-image: url("./assets/bg.png");
+    background-size: contain;
+    height: 88vh;
+}
+.hero-heading , .hero-description , .button-large{
+    position: absolute;
+}
+.hero-heading{
+    left: 25%;
+    top: 35%;
+    color: #fff;
+    font-size: 9.5rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    display: block;
+    text-indent: 4%;
+    line-height: 105%;
+    
+}
+.hero-description{
+    left: 32%;
+    top: 62%;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.button-large{
+    left: 38%;
+    top:72%;
+    padding: 1rem 3rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: #8D3DAF;
+    border: none;
+    border-radius: 5rem;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+.button-large:hover{
+    background-color: rgba(0,0,0,0.3);
+}
